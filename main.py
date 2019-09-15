@@ -1,7 +1,7 @@
 import telebot
 from handlers import *
 
-TOKEN = '888372870:AAEVVMYX0y1oabnknBJeX-xw5WSudvlRaZw'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -115,7 +115,7 @@ def krossovki(message):
     if text == 'Nike':
         msg = bot.send_invoice(chat_id, title='Yezzy Boost 500',
                                description='Yezzy boost by kanye west',
-                               provider_token="632593626:TEST:i48678063084",
+                               provider_token="",
                                currency='uah',
                                photo_url='https://www.flightclub.com/media/catalog/product/cache/1/image/1600x1140'
                                          '/9df78eab33525d08d6e5fb8d27136e95/8/0/804366_01.jpg',
@@ -130,7 +130,7 @@ def krossovki(message):
     elif text == 'Puma':
         msg1 = bot.send_invoice(message.chat.id, title='Puma Thunder',
                                 description='Лучше возьми Yezzy',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://sneakerstudio.com.ua/rus_pl_%D0%9A%D1%80%D0%BE%D1%81%D1%81%D0%BE%D0%B2%D0'
                                           '%BA '
@@ -146,7 +146,7 @@ def krossovki(message):
     elif text == "Adidas":
         msg2 = bot.send_invoice(message.chat.id, title='Raf Simons Ozweego',
                                 description='raf simons 600',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='http://cdn.shopify.com/s/files/1/1500/3934/products/adidas-x-raf-simons-ozweego-iii'
                                           '-purple-black-3_grande.jpg?v=1525816783',
@@ -162,7 +162,7 @@ def krossovki(message):
     elif text == "New Balance":
         msg3 = bot.send_invoice(message.chat.id, title='NB me546',
                                 description='enochki',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn.laredoute.com/products/641by641/1/5/8'
                                           '/158f0d9ac1a8e04ad66837d16d3edfc9.jpg',
@@ -185,7 +185,7 @@ def krosovki_sport(message):
     if text == 'Nike':
         msg = bot.send_invoice(chat_id, title='Yezzy Boost 500',
                                description='Yezzy boost by kanye west',
-                               provider_token="632593626:TEST:i48678063084",
+                               provider_token="",
                                currency='uah',
                                photo_url='https://cdn-images.farfetch-contents.com/13/37/31/57/13373157_15252456_480.jpg',
                                photo_height=512,
@@ -199,7 +199,7 @@ def krosovki_sport(message):
     elif text == 'Puma':
         msg1 = bot.send_invoice(message.chat.id, title='Puma Thunder',
                                 description='Лучше возьми Yezzy',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://sneakerstudio.com.ua/rus_pl_%D0%9A%D1%80%D0%BE%D1%81%D1%81%D0%BE%D0%B2%D0'
                                           '%BA '
@@ -215,7 +215,7 @@ def krosovki_sport(message):
     elif text == "Adidas":
         msg2 = bot.send_invoice(message.chat.id, title='Raf Simons Ozweego',
                                 description='raf simons 600',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/13/48/65/77/13486577_15842766_480.jpg',
                                 photo_height=512,
@@ -230,7 +230,7 @@ def krosovki_sport(message):
     elif text == "New Balance":
         msg3 = bot.send_invoice(message.chat.id, title='NB me546',
                                 description='enochki',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="6325936:i48678063084",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/13/04/36/93/13043693_14921977_480.jpg',
                                 photo_height=512,
@@ -252,7 +252,7 @@ def trands(message):
     if text == 'Nike':
         msg = bot.send_invoice(chat_id, title='Yezzy Boost 500',
                                description='Yezzy boost by kanye west',
-                               provider_token="632593626:TEST:i48678063084",
+                               provider_token="",
                                currency='uah',
                                photo_url='https://cdn-images.farfetch-contents.com/13/35/39/54/13353954_16054219_480.jpg',
                                photo_height=512,
@@ -266,7 +266,7 @@ def trands(message):
     elif text == 'Puma':
         msg1 = bot.send_invoice(message.chat.id, title='Puma Thunder',
                                 description='Лучше возьми Yezzy',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/13/38/99/64/13389964_15240291_480.jpg'
                                           '%D0%B8-Puma-Thunder-Spectra-367516-01-17077_1.jpg',
@@ -281,7 +281,7 @@ def trands(message):
     elif text == "Adidas":
         msg2 = bot.send_invoice(message.chat.id, title='Raf Simons Ozweego',
                                 description='raf simons 600',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/12/96/03/33/12960333_13486531_480.jpg',
                                 photo_height=512,
@@ -296,7 +296,7 @@ def trands(message):
     elif text == "New Balance":
         msg3 = bot.send_invoice(message.chat.id, title='NB me546',
                                 description='enochki',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn.laredoute.com/products/641by641/1/5/8'
                                           '/158f0d9ac1a8e04ad66837d16d3edfc9.jpg',
@@ -319,7 +319,7 @@ def collabs(message):
     if text == 'Nike':
         msg = bot.send_invoice(chat_id, title='Yezzy Boost 500',
                                description='Yezzy boost by kanye west',
-                               provider_token="632593626:TEST:i48678063084",
+                               provider_token="",
                                currency='uah',
                                photo_url='https://cdn-images.farfetch-contents.com/13/31/17/60/13311760_14940306_480.jpg',
                                photo_height=512,
@@ -333,7 +333,7 @@ def collabs(message):
     elif text == 'Puma':
         msg1 = bot.send_invoice(message.chat.id, title='Puma Thunder',
                                 description='Лучше возьми Yezzy',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn.laredoute.com/products/641by641/1/5/8'
                                           '/158f0d9ac1a8e04ad66837d16d3edfc9.jpg',
@@ -348,7 +348,7 @@ def collabs(message):
     elif text == "Adidas":
         msg2 = bot.send_invoice(message.chat.id, title='Raf Simons Ozweego',
                                 description='raf simons 600',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="6",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/12/96/02/37/12960237_13486444_480.jpg',
                                 photo_height=512,
@@ -363,7 +363,7 @@ def collabs(message):
     elif text == "New Balance":
         msg3 = bot.send_invoice(message.chat.id, title='NB me546',
                                 description='enochki',
-                                provider_token="632593626:TEST:i48678063084",
+                                provider_token="",
                                 currency='uah',
                                 photo_url='https://cdn-images.farfetch-contents.com/12/96/09/99/12960999_13547587_480.jpg',
                                 photo_height=512,
